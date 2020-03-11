@@ -1,0 +1,47 @@
+.form_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.input-wrapper {
+  max-width: 300px;
+  width: 100%;
+  padding: 5px 10px;
+}
+
+.input-wrapper input,
+.input-wrapper select {
+  width: 100%;
+  padding: 7px 15px;
+  box-sizing: border-box;
+  outline: none;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 16px;
+  transition: all 0.3s ease;
+}
+
+.input-wrapper input::placeholder,
+.input-wrapper option:first-of-type {
+  color: #c7c7c7;
+}
+
+.input-wrapper input:focus {
+  border: 1px solid #945555;
+}
+
+.input-wrapper button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(141, 141, 141);
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.input-wrapper button:hover {
+  background-color: #ccc;
+}

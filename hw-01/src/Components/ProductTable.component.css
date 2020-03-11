@@ -1,0 +1,22 @@
+.table__wrapper {
+  margin: 30px auto;
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.products-table {
+  border-collapse: collapse;
+}
+
+.products-table thead {
+  background-color: #ddd;
+}
+
+.products-table td,
+.products-table th {
+  padding: 10px;
+  text-align: left;
+  border: 1px solid #ccc;
+}
