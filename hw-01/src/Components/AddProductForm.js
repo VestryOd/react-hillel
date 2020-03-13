@@ -19,6 +19,12 @@ class AddProductForm extends Component {
     let { addProductToTable } = this.props;
     event.preventDefault();
     addProductToTable(this.state);
+    this.setState({
+      name: "",
+      category: "",
+      price: "",
+      store: ""
+    });
   };
 
   render() {
