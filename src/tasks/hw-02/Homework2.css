@@ -1,0 +1,6 @@
+.content__wrapper {
+  display: flex;
+  padding: 15px;
+  justify-content: space-between;
+  position: relative;
+}

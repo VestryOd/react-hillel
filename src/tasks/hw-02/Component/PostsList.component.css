@@ -1,0 +1,12 @@
+.posts-list-wrapper {
+  max-width: 750px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-header {
+  text-align: left;
+  text-transform: uppercase;
+  color: #8b8b8b;
+}
