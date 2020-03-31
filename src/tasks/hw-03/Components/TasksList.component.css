@@ -1,0 +1,13 @@
+.light th,
+.light td,
+.light tr {
+  background-color: #ffffff;
+  color: inherit;
+}
+
+.dark th,
+.dark td,
+.dark tr {
+  background-color: #454545;
+  color: white;
+}
