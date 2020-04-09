@@ -1,11 +1,10 @@
 import React from "react";
-import Homework03 from "./tasks/hw-03/Homework03";
-import "./styles.css";
+import Homework04 from './tasks/hw-04/Homework04';
 
 export default function App() {
   return (
     <div className="App">
-      <Homework03 />
+      <Homework04 />
     </div>
   );
 }
