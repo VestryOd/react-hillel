@@ -54,7 +54,7 @@ export default function UserPage() {
               <Header as="h3">Please select an album.</Header>
             </Route>
             <Route path={`${path}/albums/:albumId`} exact>
-              <AlbumPage log={"bu"}/>
+              <AlbumPage userName={user.name}/>
             </Route>
             <Route path="*">
               <NotFoundPage />
